@@ -1,6 +1,6 @@
-% PreLab
-IL = [45.455 41.667 35.714 29.412 25 20 16.667 12.5 8.333 4.545]; % in Amps
-VL = [0.455 0.833 1.429 2.059 2.5 3 3.333 3.75 4.167 4.545]; % in Volts
+% Experimental Results
+IL = [40.25, 37.349, 32.687, 27.490, 23.612, 19.152, 15.393, 12.277, 8.262, 4.539]; % in Amps
+VL = [0.4821, 0.8591, 1.454, 2.087, 2.533, 3.036, 3.373, 3.789, 4.211, 4.595]; % in Volts
 
 p = polyfit(IL, VL, 1); % eq for line of best fit
 VL_fit = polyval(p, IL);
@@ -20,7 +20,7 @@ title('V_L vs I_L with Linear Fit');
 legend('Measured Data', 'Line of Best Fit', 'Location', 'northeast');
 grid on;
 
-text(3, 4.0, sprintf(['Slope = %.4f V/mA\n' ...
+text(30, 4.0, sprintf(['Slope = %.4f V/mA\n' ...
                        'V-intercept = %.4f V\n' ...
                        'I-intercept = %.4f mA'], ...
                        slope, y_intercept, x_intercept), ...
