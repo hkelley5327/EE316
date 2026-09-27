@@ -1,0 +1,46 @@
+Circuit: * C:\Users\hanna\OneDrive\Documents\EE316\Lab5\PreLab5\LTSpice\filters.asc
+
+
+lpf_gain_25: db(v(lowpass)/v(vin))=(2.65449dB,-94.4726°) at 25
+lpf_gain_50: db(v(lowpass)/v(vin))=(8.54764dB,-98.7889°) at 50
+lpf_gain_75: db(v(lowpass)/v(vin))=(11.8722dB,-102.827°) at 75
+lpf_gain_100: db(v(lowpass)/v(vin))=(14.1213dB,-106.519°) at 100
+lpf_gain_150: db(v(lowpass)/v(vin))=(17.0515dB,-112.808°) at 150
+lpf_gain_200: db(v(lowpass)/v(vin))=(18.9129dB,-117.797°) at 200
+lpf_gain_300: db(v(lowpass)/v(vin))=(21.2001dB,-124.984°) at 300
+lpf_gain_500: db(v(lowpass)/v(vin))=(23.5726dB,-133.375°) at 500
+lpf_gain_600: db(v(lowpass)/v(vin))=(24.306dB,-136.062°) at 600
+lpf_gain_700: db(v(lowpass)/v(vin))=(24.8874dB,-138.192°) at 700
+lpf_gain_800: db(v(lowpass)/v(vin))=(25.3654dB,-139.934°) at 800
+lpf_gain_900: db(v(lowpass)/v(vin))=(25.7689dB,-141.391°) at 900
+lpf_gain_1000: db(v(lowpass)/v(vin))=(26.1166dB,-142.634°) at 1000
+hpf_gain_25: db(v(highpass)/v(vin))=(26.1591dB,142.785°) at 25
+hpf_gain_50: db(v(highpass)/v(vin))=(23.6273dB,133.575°) at 50
+hpf_gain_75: db(v(highpass)/v(vin))=(21.7972dB,127.027°) at 75
+hpf_gain_100: db(v(highpass)/v(vin))=(20.2931dB,122.004°) at 100
+hpf_gain_150: db(v(highpass)/v(vin))=(17.8419dB,114.829°) at 150
+hpf_gain_200: db(v(highpass)/v(vin))=(15.8688dB,110.049°) at 200
+hpf_gain_300: db(v(highpass)/v(vin))=(12.8125dB,104.263°) at 300
+hpf_gain_500: db(v(highpass)/v(vin))=(8.6574dB,98.8998°) at 500
+hpf_gain_600: db(v(highpass)/v(vin))=(7.12597dB,97.4702°) at 600
+hpf_gain_700: db(v(highpass)/v(vin))=(5.81926dB,96.4317°) at 700
+hpf_gain_800: db(v(highpass)/v(vin))=(4.68057dB,95.6443°) at 800
+hpf_gain_900: db(v(highpass)/v(vin))=(3.67203dB,95.0272°) at 900
+hpf_gain_1000: db(v(highpass)/v(vin))=(2.76733dB,94.531°) at 1000
+
+
+Date: Sun Sep 27 17:54:33 2026
+Total elapsed time: 0.048 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+
